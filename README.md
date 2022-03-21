@@ -10,7 +10,7 @@ Enhance your strings with _live_ hashtag components.
 ## Features:
 
 - Super small **~430 B**
-- Available for React and Preact
+- Available for React
 - Custom renderer for each hashtag
 - Custom 'click' handler for each hashtag
 - Generic output
@@ -19,8 +19,6 @@ Enhance your strings with _live_ hashtag components.
 ## Demo
 
 React: https://codesandbox.io/s/qxow0z7v49
-
-Preact: https://codesandbox.io/s/qv8qz89ll9
 
 ## Quick example
 
@@ -45,7 +43,7 @@ const Card = () => (
 The usual flow
 
 ```bash
-npm install react-hashtag --save
+npm install @mdnm/react-hashtag --save
 ```
 
 ## Api
