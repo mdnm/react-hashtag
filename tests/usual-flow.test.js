@@ -1,7 +1,7 @@
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
+import { configure, mount, shallow } from 'enzyme';
 import React from 'react';
-import {configure, shallow, mount} from 'enzyme';
 import ReactHashtag from '../src/index';
-import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
 
